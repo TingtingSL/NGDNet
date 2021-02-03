@@ -1,7 +1,7 @@
 # NGDNet
 Head pose estimation (HPE) under active infrared (IR) illumination has attracted much attention in the fields of computer vision and machine learning. However, IRHPE often suffers from the problems of low-quality IR images and ambiguous head pose. To tackle these issues, we propose a novel nonuniform Gaussian-label distribution learning network (NGDNet) for the HPE task. First, we reveal the essential properties from two different perspectives: 1) two head pose images change differently in pitch and yaw directions with the same angle increasing on the central pose; 2) the IR head pose variation first increases and then decreases in the pitch direction. Subsequently, the first property indicates the pose image label as a nonuniform label distribution (Gaussian function) with different long and short axes. The second property is leveraged to determine the distribution size in accordance with the similarities of adjacent hand poses. Lastly, the proposed NGDNet is verified on a new IRHPE dataset, which is built by our research group. Experimental results on several datasets demonstrate the effectiveness of the pro- posed model. Compared with conventional algorithms, our NGDNet model achieves state-of-the-art per- formance with 77.39% on IRHPE, 99.08% on CAS-PEAL-R1, and 87.41% on Pointing’04. 
 ## Demos
-![Fig  1a](https://user-images.githubusercontent.com/49382752/106747445-e92e0b80-665e-11eb-8514-00a0ebeeb591.jpg)
-![Fig  1b](https://user-images.githubusercontent.com/49382752/106747451-eaf7cf00-665e-11eb-86dc-b297a1d7b263.jpg)
-![Fig 1c](https://user-images.githubusercontent.com/49382752/106747454-eb906580-665e-11eb-859b-3e7d7883eeaa.jpg)
-![Fig 1d](https://user-images.githubusercontent.com/49382752/106747457-ec28fc00-665e-11eb-8efe-a7c900e429eb.jpg)
+![Fig  1a](https://user-images.githubusercontent.com/49382752/106748042-a3be0e00-665f-11eb-8537-0ba7eaf93c84.jpg)
+![Fig  1b](https://user-images.githubusercontent.com/49382752/106748049-a4ef3b00-665f-11eb-9d7a-897b85ed0bc0.jpg)
+![Fig 1c](https://user-images.githubusercontent.com/49382752/106748051-a6206800-665f-11eb-88c6-ca2eab46ac40.jpg)
+![Fig 1d](https://user-images.githubusercontent.com/49382752/106748060-a6b8fe80-665f-11eb-9bbd-52411ddd49ab.jpg)
